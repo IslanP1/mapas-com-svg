@@ -97,10 +97,9 @@ Contribuições são bem-vindas! Abra issues ou envie pull requests com melhoria
 
 Este projeto está licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para mais detalhes.
 
-**Desenvolvedores**
+**Desenvolvedor**
 -------------------
 
 * [Islan Oliveira](https://github.com/IslanP1)
-* Outros contribuidores
-
+  
 Desenvolvido com ❤️ por uma pessoa apaixonada por mapas e tecnologia!
