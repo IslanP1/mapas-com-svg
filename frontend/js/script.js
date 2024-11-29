@@ -52,9 +52,7 @@ async function carregarMapa(estadoNome, municipioNome) {
         const pathEstado = data.pathestado;
         const pathMunicipio = data.pathmunicipio;
 
-        console.log(pathMunicipio)
-
-
+        
         // Criando o elemento SVG dinamicamente
         const svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg"); 
         svgElement.setAttribute("viewBox", viewBox); 
