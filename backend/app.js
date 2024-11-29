@@ -6,15 +6,18 @@ import clientdb from "./config/db.js";
 
 const app = express();
 
+// Configuração do CORS
+const corsOptions = {
+    origin: 'http://127.0.0.1:5500',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+    allowedHeaders: ['Content-Type', 'Authorization'],
+};
+
+app.use(cors(corsOptions));
 dotenv.config();
-app.use(cors());
 app.use(express.json());
 
 await clientdb.connect();
-
-app.get("/", (req, res) => {
-    res.send("Hello from server");
-});
 
 // Rotas
 app.use(routes);
